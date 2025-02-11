@@ -1,4 +1,5 @@
 {% extends 'base.html' %}
+{% load static %}
 
 
 {% block title %}About{% endblock title %}
@@ -8,4 +9,5 @@
 <p>
     <small class="text-body-secondary">Welcome to my about page!</small>
 </p>
+<img src="{% static 'img/happy_guy.jpg' %}" style="width: 30%">
 {% endblock content %}
